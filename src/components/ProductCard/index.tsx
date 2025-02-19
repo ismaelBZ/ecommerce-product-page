@@ -1,12 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import CartItem from '../../types/CartItemInterface';
 import { PreviousSneaker,NextSneaker } from './Buttons/ImageButtons';
 import Plus from './../../assets/icons/plus.svg'
 import Minus from './../../assets/icons/minus.svg'
 import CartIcon from './../../assets/icons/cart-item.svg';
-import Close from './../../assets/icons/close.svg';
 import Product from './ProductClass';
-import ImageGalery from './ImageGalery';
 
 
 const ProductCard = ({ setCartList } : { setCartList: React.Dispatch<React.SetStateAction<CartItem[] | null>> }) => {
@@ -78,7 +76,6 @@ const ProductCard = ({ setCartList } : { setCartList: React.Dispatch<React.SetSt
         {/* On click(id) => setImage({ url: '', isActive: true/false}) */}
         setBigImage(id)
         setActiveThumb((prev) => {
-            const lastState = prev;
             const newState = new Array(prev.length).fill(false);
             newState[id] = true;
             return newState;
