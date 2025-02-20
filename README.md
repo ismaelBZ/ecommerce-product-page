@@ -1,50 +1,58 @@
-# React + TypeScript + Vite
+# Sneakers - E-commerce Product Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👟 This is a project of the product page of Sneakers e-commerce. 
 
-Currently, two official plugins are available:
+[Sneakers - GitHub Pages](https://ismaelbz.github.io/ecommerce-product-page/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Vite
+- TypeScript
+- React.js
+- Tailwind CSS
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Como Utilizar o projeto
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Pré-requisitos
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Node.js (versão 16 ou superior)
+- Gerenciador de pacotes Node.js de sua preferência (exemplos: npm ou yarn)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Faça o download do repositório no seu computador
+
+- Faça o download do códio .zip no seu computador
+- Extraia os arquivos
+
+Ou se preferir
+
+- pode clonar o repositório utilizando o git através:
+
+`git clone git@github.com:ismaelBZ/ecommerce-product-page.git`
+
+### Intale as dependências
+
+Abra o terminal do seu computador no diretório do projeto e execute: 
+
+Para **npm**
+`npm install`
+
+Para **yarn**
+`yarn install`
+
+### Rodando em Servido de Desenvolvimento
+
+Após instalados os pacotes, execute no terminal:
+
+Para **npm**:
+`npm run dev`
+
+Para **yarn**:
+`yarn dev`
+
+<br>
+
+>  This is a challenge by [Frontend Menthor](https://www.frontendmentor.io/)
+
+<br>
