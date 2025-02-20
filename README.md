@@ -1,6 +1,10 @@
 # Sneakers - E-commerce Product Page
 
+<br>
+
 👟  A fully responsive product page for a sneakers e-commerce store.
+
+<br>
 
 ![desktop](https://github.com/ismaelBZ/ecommerce-product-page/blob/main/src/assets/desktop-image.png)
 
