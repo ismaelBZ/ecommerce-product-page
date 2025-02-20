@@ -47,8 +47,20 @@ Using **npm**: `npm run dev`
 
 Using **yarn**: `yarn dev`
 
+
+## Acknowledgments
+
+First, God, of course. Without Him, I wouldn't be there. Second, my mother and father. They are my strongest support, and there are no words to describe how incredible they are. 
+
+Finally, a shoutout to Frontend Mentor for providing this amazing free content for us, developers, to practice and showcase our skills. 
+
 <br>
 
 >  This is a challenge by [Frontend Menthor](https://www.frontendmentor.io/)
 
 <br>
+
+## Author
+
+- LinkedIN - [/ismaelbetzoletti](https://www.linkedin.com/in/ismaelbetzoletti/)
+- Portfolio - [Ismael Bet Zoletti](https://ismaelbz.github.io/portfolio/)
