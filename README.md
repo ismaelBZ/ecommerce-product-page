@@ -1,11 +1,11 @@
 # Sneakers - E-commerce Product Page
 
-👟 This is a project of the product page of Sneakers e-commerce. 
+👟  A fully responsive product page for a sneakers e-commerce store.
 
-[Sneakers - GitHub Pages](https://ismaelbz.github.io/ecommerce-product-page/) 
+[🔗 View Sneakers product page](https://ismaelbz.github.io/ecommerce-product-page/) 
 
 
-## Tecnologias utilizadas
+## 🚀 Technologies
 
 - Vite
 - TypeScript
@@ -13,43 +13,39 @@
 - Tailwind CSS
 
 
-## Como Utilizar o projeto
+## 🛠️ Installation
 
-### Pré-requisitos
+### Prerequisites
 
-- Node.js (versão 16 ou superior)
-- Gerenciador de pacotes Node.js de sua preferência (exemplos: npm ou yarn)
+- Node.js (18.0+)
+- A package manager (e.g., npm ou yarn)
 
-### Faça o download do repositório no seu computador
+### Download the repository locally
 
-- Faça o download do códio .zip no seu computador
-- Extraia os arquivos
+- Get the .zip code in your computer
+- Extract the files
 
-Ou se preferir
+If you prefer git:
 
-- pode clonar o repositório utilizando o git através:
+```
+git clone git@github.com:ismaelBZ/ecommerce-product-page.git`
+```
 
-`git clone git@github.com:ismaelBZ/ecommerce-product-page.git`
+### Install dependencies:
 
-### Intale as dependências
+In your computer terminal navigate to the project folder and execute:
 
-Abra o terminal do seu computador no diretório do projeto e execute: 
+Using **npm**: `npm install`
 
-Para **npm**
-`npm install`
+Using **yarn**: `yarn install`
 
-Para **yarn**
-`yarn install`
+### Running on development server
 
-### Rodando em Servido de Desenvolvimento
+After install the packages, execute:
 
-Após instalados os pacotes, execute no terminal:
+Using **npm**: `npm run dev`
 
-Para **npm**:
-`npm run dev`
-
-Para **yarn**:
-`yarn dev`
+Using **yarn**: `yarn dev`
 
 <br>
 
