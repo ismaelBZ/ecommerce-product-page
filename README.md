@@ -29,7 +29,7 @@
 If you prefer git:
 
 ```
-git clone https://github.com/ismaelBZ/ecommerce-product-page.git`
+git clone https://github.com/ismaelBZ/ecommerce-product-page.git
 ```
 
 ### Install dependencies:
